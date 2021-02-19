@@ -22,7 +22,7 @@ def fun3(*k):
 t = (1,2,3)
 fun3(*t)
 
-#use of '*args' and print element using 'for':
+# use of '*args' and print element using 'for':
 def fun4(*args):
 	for arg in args:
 		print (arg)
