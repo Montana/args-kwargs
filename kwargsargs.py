@@ -1,4 +1,7 @@
+#!/usr/local/bin/python3
+
 # use of '*' with list e.g. (*args)
+
 def fun(a,b,c):
 	print (a,b,c)
 
@@ -26,8 +29,6 @@ def fun4(*args):
 
 t = ('a','b','c')
 fun4(*t)
-
-# use of '**'
 
 # for '*' we use list/tuple but for '**' we use 'dictionary'
 
